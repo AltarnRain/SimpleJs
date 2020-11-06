@@ -4,6 +4,7 @@ const open = require('open');
 const port = 3000;
 const app = express();
 
+
 app.get('/**', function (req, res) {
     if (req.url === "/") {
         res.sendFile(path.join(__dirname, '../client/index.html'))
