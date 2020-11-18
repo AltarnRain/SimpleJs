@@ -1,7 +1,6 @@
 const express = require('express');
 const path = require('path');
 const open = require('open');
-const { Console } = require('console');
 const port = 3000;
 const app = express();
 
